@@ -132,7 +132,7 @@ body {
     position: absolute;
     left: 50%;
     top: 12px;
-    bottom: 50px;
+    bottom: 60px;
     width: 2px;
     /* height: 100%; */
     background-color: #e74c3c;
@@ -143,7 +143,16 @@ body {
    width: 238px;
 }
 
+.content-right {
+    width: 238px;
+}
+
 .left-block {
+    display: flex;
+    position: relative;
+}
+
+.right-block {
     display: flex;
     position: relative;
 }
@@ -157,6 +166,17 @@ body {
     height: 10px;
     left: 100%;
     top: 12px;
+}
+
+.right-block::before {
+    content: "";
+    position: absolute;
+    background-image: url(./images/career-timeline-template-arrow.png);
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 10px;
+    right: 100%;
+    top: 13px;
 }
 
 .left-first-block {
@@ -173,6 +193,22 @@ body {
 
 .left-fourth-block {
     margin-bottom: 78px;
+}
+
+.right-first-block {
+    margin-top: 58px;
+}
+
+.right-second-block {
+    margin-top: 74px;
+}
+
+.right-third-block {
+    margin-top: 62px;
+}
+
+.right-fourth-block {
+    margin-top: 60px;
 }
 
 .profession-block {
@@ -221,9 +257,17 @@ body {
     top: 12px;
 }
 
-.content-right {
-    width: 47.3%;
+.circle-left {
+    right: -20px;
+    top: 12px;
 }
+
+.circle-right {
+    left: -20px;
+    top: 12px;
+}
+
+
 
 
 

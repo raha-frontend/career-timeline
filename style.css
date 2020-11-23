@@ -15,14 +15,13 @@ body {
 
 .wrapper {
     padding: 54px;
-    width: 612px;
+    max-width: 612px;
     min-height: 792px;
     margin: 30px auto;
     background-color: #fff;
 }
 
 .container {
-    margin: 225px;
     width: 504px;
     margin: 0 auto;
 }
@@ -38,18 +37,19 @@ body {
 
 .header-title {
     font-size: 30px;
-    width: 37%;
+    width: 184px;
 }
 
 .header-description {
     font-size: 9px;
     line-height: 12px;
-    width: 61%;
+    width: 304px;
 }
 
 .contact-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     padding: 16px 0;
 }
@@ -111,7 +111,7 @@ body {
     height: 11px;
 }
 
-.subtitle {
+.page-title {
     padding: 7px 0 7px 7px;
     font-size: 14px;
     border-radius: 5px;
